@@ -46,7 +46,7 @@ function AddBeerPage() {
         newBeer
       );
       console.log(response);
-      nav("/");
+      nav("/beers");
     } catch (err) {
       console.log("there is an error", err);
     }
